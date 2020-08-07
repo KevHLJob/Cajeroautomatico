@@ -9,6 +9,9 @@ package Persona;
  *
  * @author Klope
  */
-public class Cuenta {
+public class Tipo_cuenta {
+    String nombre="";
     
 }
+
+

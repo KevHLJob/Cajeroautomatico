@@ -10,7 +10,34 @@ package Persona;
  * @author Klope
  */
 public class Tipo_cuenta {
-    String nombre="";
+  private String ahorro="";
+    private String corriente="";
+
+    
+    
+    public Tipo_cuenta() {
+    }
+
+    
+    
+    public String getAhorro() {
+        return ahorro;
+    }
+
+    public void setAhorro(String ahorro) {
+        this.ahorro = ahorro;
+    }
+
+    public String getCorriente() {
+        return corriente;
+    }
+
+    public void setCorriente(String corriente) {
+        this.corriente = corriente;
+    }
+
+    
+    
     
 }
 
